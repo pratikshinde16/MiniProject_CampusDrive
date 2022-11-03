@@ -1,0 +1,115 @@
+*
+{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+
+body{
+    background-image:linear-gradient(rgb(105, 61, 106),rgba(105, 61, 106));
+    
+    background-size:cover;
+    font-size: inherit;
+}
+nav
+{
+    width: 100%;
+    height: 15vh;
+    background:black ;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+nav .logo
+{
+    color:rgb(132, 241, 241);
+margin-left: 50px;
+}
+
+/* @keyframes animate__heartBeat {
+
+        display: inline-block;
+        margin: 0 0.5rem;
+      
+        
+} */
+
+nav .menu
+{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav .menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav .menu a:first-child
+{
+    color:#eee(112, 13, 112);
+}
+
+nav a:hover
+{
+    background: violet;
+    color:black;
+}
+
+
+
+
+
+
+
+.flex-center{
+    align-items:center;
+}
+.circle-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2b4eff;
+    border: 5px solid #b2bfff ;
+    color: #fff;
+    margin-left: -20px;
+    margin-right: 10px;
+    transform: scale(1.2);
+
+
+
+}
+
+.container{
+    margin-left: 12% !important;
+    
+}
+
+.accordion-items{
+    border: 0px !important;
+
+}
+
+.accordion-button:not(.collapsed){
+    border:0px !important;
+    color:#0c63e4;
+    background:#fff;
+    box-shadow: 0 2px 25px -3px rgba(0,0,0,0.1);
+}
+.accordion-body{
+    margin-top: 15px;
+    padding: 25px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 25px -3px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
